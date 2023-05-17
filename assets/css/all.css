@@ -274,8 +274,14 @@ form {
   padding: 9px 20px;
   background: var(--primary);
   color: white;
-  border: none;
+  border: 1px solid transparent;
   border-radius: 3px;
+  transition: 0.5s;
+}
+
+.form-btn button:hover {
+  border: 1px solid white;
+  background: none;
 }
 
 .input-group {
